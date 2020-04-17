@@ -1,0 +1,3 @@
+Melhorar o Carrinho para aparecer Imagens e nome do produto
+Adicionar o login de ADM para adicionar produtos ao site
+Adicionar o login de Cliente para efetuar a compra

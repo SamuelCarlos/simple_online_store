@@ -1,0 +1,162 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #6D6466;
+}
+
+#gitMessage {
+    margin: 0;
+    width: 100%;
+    background-color: #F14A57;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+#gitMessage p {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    color: #d2d4c8;
+}
+
+#gitMessage p a {
+    color: #D8C492;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+nav {
+    background-color: #3A3042;
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#items-background {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#products {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#products .card {
+    background-color: #F4F7BE;
+}
+
+#products .card h5 {
+    font-weight: 500;
+}
+
+#products .card span {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.carousel-indicators {
+    opacity: 0%;
+}
+
+.carousel-control-prev {
+    opacity: 0%;
+}
+
+.carousel-control-next {
+    opacity: 0%;
+}
+
+.card:hover .carousel-indicators{
+    opacity: 100%;
+}
+
+.card {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cardadd {
+    margin: 0 auto;
+}
+
+.card-body .btn{
+    background-color: #F14A57;
+    border: none;
+}
+
+
+.card-body .btn:hover{
+    background-color: #C11A27;
+}
+
+#cartSymbol {
+    width: 40px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+#cartdiv {
+    background-image: url(images/cartsymbol.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#qttnotification {
+    border-radius: 15px;
+    background-color: red;
+    width: 12px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    margin-right: 0px;
+    margin-top: 0px;
+    opacity: 0%;
+}
+
+#qttnotification p {
+    font-size: 9pt;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+#additemplaceholder {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 120px;
+    margin-bottom: 120px
+}
+
+#additemplaceholder h1 {
+    font-size: 40pt;
+    color: #000;
+}
+
+#additemplaceholder h1:hover {
+    color: #C11A27;
+}
+
+footer {
+    background-color: #3A3042;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+footer p {
+    padding: 10px;
+}
