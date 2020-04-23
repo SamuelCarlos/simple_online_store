@@ -5,7 +5,7 @@ html, body{
 }
 
 body {
-    background-color: #6D6466;
+    background-color: #171717;
 }
 
 #gitMessage {
@@ -31,7 +31,7 @@ body {
 
 
 nav {
-    background-color: #3A3042;
+    background-color: #093E47;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -50,7 +50,8 @@ nav a {
 }
 
 #products .card {
-    background-color: #F4F7BE;
+    background-color: #093E47;
+    color: #fff;
 }
 
 #products .card h5 {
@@ -61,6 +62,35 @@ nav a {
     padding-left: 10px;
     font-weight: 500;
 }
+
+#newItemForm {
+    display: none;
+}
+
+#createNew {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+#pageBody {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    
+}
+
+#loginForm {
+    margin: 10px;
+}
+
+#userImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
 
 .carousel-indicators {
     opacity: 0%;
@@ -81,7 +111,7 @@ nav a {
 .card {
     margin: 0 auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .cardadd {
@@ -96,6 +126,16 @@ nav a {
 
 .card-body .btn:hover{
     background-color: #C11A27;
+}
+
+.imgCarousel {
+    height: 100%;
+    max-height: 300px;
+    margin: 0 auto;
+}
+
+.carousel-inner { 
+    background-color: #fff;
 }
 
 #cartSymbol {
@@ -134,29 +174,49 @@ nav a {
     text-align: center;
 }
 
-#additemplaceholder {
-    text-align: center;
-    cursor: pointer;
-    margin-top: 120px;
-    margin-bottom: 120px
+#newItemForm {
+    margin: 10px;
 }
 
-#additemplaceholder h1 {
-    font-size: 40pt;
-    color: #000;
+#formButton {
+    background-color: #F14A57;
+    border: none;
 }
 
-#additemplaceholder h1:hover {
-    color: #C11A27;
+#formButton:hover {
+    background-color: #C11A27;
+}
+
+
+label {
+    margin: 0 auto;
 }
 
 footer {
-    background-color: #3A3042;
+    background-color: #093E47;
     text-align: center;
     color: white;
     font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 footer p {
     padding: 10px;
+    margin: 0px;
+}
+
+footer a {
+    margin: 0px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    margin: 0px;
+    text-decoration: none;
+    color: #aaa;
 }
